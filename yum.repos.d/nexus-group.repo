@@ -1,0 +1,5 @@
+[rockylinux-group]
+name=Rocky Linux BaseOS
+baseurl=http://rockylinux:qazwsx@192.168.83.132:8081/repository/rockylinux-group/
+enabled=1
+gpgcheck=0
