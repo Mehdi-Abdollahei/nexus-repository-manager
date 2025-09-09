@@ -31,6 +31,7 @@ application-host=192.168.83.132
 ```
 ## 🛠️ Step 5: Systemd Service
 Create /etc/systemd/system/nexus.service:
+```bash
 [Unit]
 Description=Nexus service
 After=network.target
@@ -46,7 +47,7 @@ TimeoutSec=600
 
 [Install]
 WantedBy=multi-user.target
-
+```
 Reload systemd and start service:
 ```bash
 sudo systemctl daemon-reload
