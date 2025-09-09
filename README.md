@@ -17,18 +17,21 @@ ln -s /opt/sonatype/nexus-3.83.2-01 /opt/sonatype/nexus
 ```bash
 sudo useradd -r -s /bin/false nexus
 sudo chown -R nexus:nexus /opt/sonatype
-
 ```
+
 ## ⚙️ Step 3: Configure Nexus to Run as nexus
+```bash
 Edit /opt/sonatype/nexus/bin/nexus:
 run_as_user='nexus'
-
 ```
-🌐 Step 4: Configure Listening IP
+
+
+## 🌐 Step 4: Configure Listening IP
+```bash
 Edit /opt/sonatype/nexus/etc/nexus-default.properties:
 application-host=192.168.83.132
-
 ```
+
 ## 🛠️ Step 5: Systemd Service
 Create /etc/systemd/system/nexus.service:
 ```bash
