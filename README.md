@@ -56,8 +56,8 @@ sudo systemctl status nexus
 
 ```
 ## 💾 Step 6: Create Blobstore Partition
-1️⃣ Partition the disk:
 ```bash
+1️⃣ Partition the disk:
 sudo fdisk /dev/sdb << EOF >> /dev/null
 g
 n
@@ -66,20 +66,25 @@ n
 +2.5G
 w
 EOF
+```
 
+```bash
 2️⃣ Format as XFS:
 sudo mkfs.xfs /dev/sdb1
-
+```
+```bash
 3️⃣ Create blobstore directory:
 sudo mkdir -p /opt/sonatype/sonatype-work/nexus3/rockylinux-blobstore
 sudo chown -R nexus:nexus /opt/sonatype/
-
+```
+```bash
 4️⃣ Add to fstab and mount:
 echo "/dev/sdb1 /opt/sonatype/sonatype-work/nexus3/rockylinux-blobstore xfs defaults 0 0" | sudo tee -a /etc/fstab
 sudo mount -a
 df -h | grep -i sdb1
-
 ```
+
+
 ## 🖥️ NOTICE Rocky Linux Repository URLs:
 ```
 For aarch64 CPU:
