@@ -1,0 +1,11 @@
+[rockylinux-base]
+name=Rocky Linux BaseOS
+baseurl=http://rockylinux:qazwsx@192.168.83.132:8081/repository/rockylinux-base/
+enabled=1
+gpgcheck=0
+
+[rockylinux-appstream]
+name=Rocky Linux AppStream
+baseurl=http://rockylinux:qazwsx@192.168.83.132:8081/repository/rockylinux-appstream/
+enabled=1
+gpgcheck=0
