@@ -4,8 +4,9 @@
 
 ### Follow me
 
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://[www.youtube.com/yourchannel](https://www.youtube.com/@mehdi_devops_pro))
-[![Instagram](https://img.shields.io/badge/Instagram-%23E1306C?style=for-the-badge&logo=instagram&logoColor=white)]([https://www.instagram.com/yourhandle/](https://www.instagram.com/mehdi.devops.pro?igsh=MThzdHJyY3dhemt4bw%3D%3D&utm_source=qr))
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/mehdi_devops_pro)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mehdi.devops.pro/)
+
 
 Set up your **single-node Nexus Repository OSS** easily! All steps in one page 👇  
 
