@@ -101,5 +101,5 @@ https://download.rockylinux.org/pub/rocky/9/AppStream/aarch64/os/
 https://download.rockylinux.org/pub/rocky/9/BaseOS/aarch64/os/
 
 For x86_64 CPU:
-https://download.rockylinux.org/pub/rockylinux/9/AppStream/x86_64/
-https://download.rockylinux.org/pub/rockylinux/9/BaseOS/x86_64/
+https://download.rockylinux.org/pub/rocky/9/AppStream/x86_64/os/
+https://download.rockylinux.org/pub/rocky/9/BaseOS/x86_64/
