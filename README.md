@@ -14,7 +14,7 @@ Set up your **single-node Nexus Repository OSS** easily! All steps in one page ð
 
 ```bash
 sudo mkdir /opt/sonatype && cd /opt/sonatype
-# Download the Nexus tar.gz from https://download.sonatype.com/nexus/3/
+# Download the Nexus tar.gz from https://help.sonatype.com/en/download.html
 tar -xzvf nexus-3.83.2-01-linux-aarch_64.tar.gz
 ln -s /opt/sonatype/nexus-3.83.2-01 /opt/sonatype/nexus
 
